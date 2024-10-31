@@ -1,0 +1,49 @@
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.logo-icon {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    margin-right: 8px;
+}
+
+/* Hover Effect on Navigation */
+.nav-link:hover {
+    color: #4a90e2;
+    border-bottom: 2px solid #4a90e2;
+}
+
+/* Service Cards */
+.service-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    header nav ul li a:hover {
+    background-color: #555;
+    }
+    
